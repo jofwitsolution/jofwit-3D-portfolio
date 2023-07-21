@@ -35,6 +35,8 @@ import {
   sass,
   chakra_ui,
   guard_enforcement,
+  human,
+  prompay_ceo,
 } from "../assets";
 
 export const navLinks = [
@@ -157,7 +159,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Devcent",
-    jobType: "",
+    jobType: "Part time",
     icon: devcent_logo,
     iconBg: "#383E56",
     date: "May 2022 - July 2023",
@@ -202,7 +204,7 @@ const testimonials = [
     name: "Adekola Joseph",
     designation: "CEO",
     company: "Ex-Nihilo",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: human,
   },
   {
     testimonial:
@@ -210,7 +212,7 @@ const testimonials = [
     name: "Abimbola",
     designation: "CW",
     company: "Didomi",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: human,
   },
   {
     testimonial:
@@ -218,7 +220,7 @@ const testimonials = [
     name: "Daniel Noble",
     designation: "Manager",
     company: "Prompay",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: prompay_ceo,
   },
 ];
 

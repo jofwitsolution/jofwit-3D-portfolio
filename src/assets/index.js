@@ -27,10 +27,6 @@ import python from "./tech/python.png";
 import sass from "./tech/sass.png";
 import chakra_ui from "./tech/chakra-ui.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import shelter from "./company/shelter.png";
 import devcent_logo from "./company/devcent-logo.png";
 
@@ -47,6 +43,9 @@ import linear_app from "./project/linear-app.png";
 import portfolio from "./project/portfolio.png";
 import prompay from "./project/prompay.png";
 import todoist from "./project/todoist.png";
+
+import human from "./comment/human.png";
+import prompay_ceo from "./comment/prompay-ceo.jpg";
 
 export {
   logo,
@@ -75,10 +74,6 @@ export {
   sass,
   chakra_ui,
   python,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   shelter,
   devcent_logo,
   pc,
@@ -95,4 +90,6 @@ export {
   bpl,
   globalflex,
   guard_enforcement,
+  human,
+  prompay_ceo,
 };
