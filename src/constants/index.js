@@ -15,14 +15,20 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  devcent,
+  linear_app,
+  todoist,
+  prompay,
+  ex_nihilo,
+  best_game_house,
+  portfolio,
+  jofwit_solution,
+  didomi,
+  globalflex,
+  bpl,
+  devcent_logo,
+  shelter,
 } from "../assets";
 
 export const navLinks = [
@@ -119,7 +125,7 @@ const experiences = [
     title: "Web Developer",
     company_name: "Guard Enforcement",
     jobType: "Remote",
-    icon: tesla,
+    icon: web,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
@@ -130,7 +136,7 @@ const experiences = [
     title: "Web Developer",
     company_name: "Devcent",
     jobType: "",
-    icon: starbucks,
+    icon: devcent_logo,
     iconBg: "#383E56",
     date: "May 2022 - July 2023",
     points: [
@@ -144,7 +150,7 @@ const experiences = [
     title: "IT Professional",
     company_name: "Gateway ICT",
     jobType: "",
-    icon: shopify,
+    icon: web,
     iconBg: "#383E56",
     date: "Sep 2021 - Aug 2022",
     points: [
@@ -156,7 +162,7 @@ const experiences = [
     title: "Embedded Programmer",
     company_name: "Shelter Electronics",
     jobType: "Part time",
-    icon: meta,
+    icon: shelter,
     iconBg: "#E6DEDD",
     date: "Jun 2018 - May 2021",
     points: [
@@ -217,7 +223,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: devcent,
     project_link: "https://devcent.net",
     source_code_link: "https://github.com/",
   },
@@ -235,7 +241,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: carrent,
+    image: linear_app,
     project_link: "https://linear.app",
     source_code_link: "https://github.com/",
   },
@@ -257,7 +263,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: todoist,
     project_link: "https://todoist.com",
     source_code_link: "https://github.com",
   },
@@ -283,7 +289,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: prompay,
     project_link: "https://theprompay.com",
     source_code_link: "https://github.com/",
   },
@@ -305,8 +311,150 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: ex_nihilo,
     project_link: "https://ex-nihilocareservicesandconsultancy.com",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Rawg clone",
+    description:
+      "Best Game House Best Game House Best Game House Best Game House Best Game House Best Game House Best Game House",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "chakra ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: best_game_house,
+    project_link: "https://bestgamehouse.vercel.app",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Former Portfolio",
+    description:
+      "My former Portfolio website. Built with Nextjs 13.4, Tailwind CSS. My former Portfolio website. Built with Nextjs Tailwind CSS.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio,
+    project_link: "https://jofwitportfolio.vercel.app",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Jofwit Solution",
+    description:
+      "An IT agency focused on web. Empowering Your Business with Expert IT Solutions and Services.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node",
+        color: "green-text-gradient",
+      },
+    ],
+    image: jofwit_solution,
+    project_link: "https://jofwitsolution.com",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Didomi Ltd",
+    description:
+      "Didomi Company Limited, One of the leading international education providers. One of the leading international education providers.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node",
+        color: "green-text-gradient",
+      },
+    ],
+    image: didomi,
+    project_link: "https://didomiconsortium.com",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Globalflex",
+    description:
+      "Your One-Stop Shop for Everything You Need. Your One-Stop E-commerce for Everything You Need.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+    ],
+    image: globalflex,
+    project_link: "https://globalflexshopping.store",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Better Place Living",
+    description:
+      "Better Place Living is a United Kingdom based health care agency that provides care and support to those in need.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bpl,
+    project_link: "https://betterplaceliving.co.uk",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Guard Enforcement",
+    description:
+      "Guard Enforcement Security and Patrol. A security company based in the United State of America and Nigeria.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bpl,
+    project_link: "https://guardenfocement.netlify.app",
     source_code_link: "https://github.com/",
   },
 ];

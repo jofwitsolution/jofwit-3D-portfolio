@@ -26,10 +26,22 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import shelter from "./company/shelter.png";
+import devcent_logo from "./company/devcent-logo.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import devcent from "./project/devcent.png";
+import best_game_house from "./project/best-game-house.png";
+import bpl from "./project/bpl.png";
+import didomi from "./project/didomi.png";
+import ex_nihilo from "./project/ex-nihilo.png";
+import globalflex from "./project/globalflex.png";
+import guard_enforcement from "./project/guard-enforcement.png";
+import jofwit_solution from "./project/jofwit-solution.png";
+import let_share from "./project/let-share.png";
+import linear_app from "./project/linear-app.png";
+import portfolio from "./project/portfolio.png";
+import prompay from "./project/prompay.png";
+import todoist from "./project/todoist.png";
 
 export {
   logo,
@@ -57,8 +69,20 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  shelter,
+  devcent_logo,
   pc,
+  devcent,
+  prompay,
+  todoist,
+  best_game_house,
+  jofwit_solution,
+  let_share,
+  linear_app,
+  didomi,
+  ex_nihilo,
+  portfolio,
+  bpl,
+  globalflex,
+  guard_enforcement,
 };
