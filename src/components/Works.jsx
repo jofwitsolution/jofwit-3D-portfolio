@@ -13,6 +13,7 @@ const ProjectCard = ({
   description,
   tags,
   image,
+  project_link,
   source_code_link,
 }) => {
   return (
@@ -40,7 +41,16 @@ const ProjectCard = ({
         </div>
 
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <a
+            href={project_link}
+            target={"_blank"}
+            rel="noreferrer"
+            className=""
+          >
+            <h3 className="text-white font-bold text-[24px] hover:text-secondary">
+              {name}
+            </h3>
+          </a>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 

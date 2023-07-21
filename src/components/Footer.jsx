@@ -6,7 +6,7 @@ import { FaFacebookF } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className={`${styles.paddingX} py-6 sm:py-8`}>
-      <div className="text-[17px] text-white w-full flex flex-col sm:flex-row gap-y-6 justify-between items-center max-w-7xl mx-auto">
+      <div className="text-[15px] text-white w-full flex flex-col sm:flex-row gap-y-6 justify-between items-center max-w-7xl mx-auto">
         <div className="order-3 sm:order-1">© Jofwit Solution</div>
         <div className="order-1">
           <a href="#hero" className="text-secondary font-bold">
