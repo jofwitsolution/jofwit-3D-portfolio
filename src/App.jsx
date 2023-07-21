@@ -1,4 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import {
   About,
@@ -31,6 +33,7 @@ const App = () => {
           <StarsCanvas />
         </div>
         <Footer />
+        <ToastContainer position="bottom-center" className="z-[10000]" />
       </div>
     </BrowserRouter>
   );
