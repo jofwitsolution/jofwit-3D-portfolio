@@ -21,6 +21,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import arduino from "./tech/arduino.png";
+import nextjs from "./tech/nextjs.png";
+import python from "./tech/python.png";
+import sass from "./tech/sass.png";
+import chakra_ui from "./tech/chakra-ui.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -65,6 +70,11 @@ export {
   tailwind,
   typescript,
   threejs,
+  arduino,
+  nextjs,
+  sass,
+  chakra_ui,
+  python,
   meta,
   shopify,
   starbucks,

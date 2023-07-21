@@ -29,6 +29,12 @@ import {
   bpl,
   devcent_logo,
   shelter,
+  arduino,
+  python,
+  nextjs,
+  sass,
+  chakra_ui,
+  guard_enforcement,
 } from "../assets";
 
 export const navLinks = [
@@ -87,12 +93,24 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
+    name: "SASS",
+    icon: sass,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "Chakra UI",
+    icon: chakra_ui,
   },
   {
     name: "Node JS",
@@ -103,20 +121,24 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Arduino",
+    icon: arduino,
   },
 ];
 
@@ -453,7 +475,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: bpl,
+    image: guard_enforcement,
     project_link: "https://guardenfocement.netlify.app",
     source_code_link: "https://github.com/",
   },
