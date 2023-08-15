@@ -21,6 +21,7 @@ import {
   todoist,
   prompay,
   ex_nihilo,
+  bibzycarter,
   best_game_house,
   portfolio,
   jofwit_solution,
@@ -172,7 +173,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2022 - July 2023",
     points: [
-      "Developed and maintaining web applications using React.js and other related technologies resulting in a remarkable 30% increase in website performance.",
+      "Developed and maintained web applications using React.js and other related technologies resulting in a remarkable 30% increase in website performance.",
       "Implemented robust back-end solutions using NodeJS, and MongoDB to enable seamless data management.",
       "Collaborated with cross-functional teams to seamlessly convert design mockups into fully functional websites and applications.",
       "Conducted comprehensive web development training sessions.",
@@ -345,6 +346,28 @@ const projects = [
     ],
     image: ex_nihilo,
     project_link: "https://ex-nihilocareservicesandconsultancy.com",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "BibzyCarter Model",
+    description:
+      "BibzyCarter Model. A Professional Model Website. BibzyCarter Model BibzyCarter Model BibzyCarter Model.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bibzycarter,
+    project_link: "https://bibzy-carter-model.vercel.app/",
     source_code_link: "https://github.com/",
   },
   {

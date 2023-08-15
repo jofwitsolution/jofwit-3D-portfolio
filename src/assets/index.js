@@ -42,6 +42,7 @@ import let_share from "./project/let-share.png";
 import linear_app from "./project/linear-app.png";
 import portfolio from "./project/portfolio.png";
 import prompay from "./project/prompay.png";
+import bibzycarter from "./project/bibzycarter.png";
 import todoist from "./project/todoist.png";
 
 import human from "./comment/human.png";
@@ -80,6 +81,7 @@ export {
   devcent,
   prompay,
   todoist,
+  bibzycarter,
   best_game_house,
   jofwit_solution,
   let_share,
