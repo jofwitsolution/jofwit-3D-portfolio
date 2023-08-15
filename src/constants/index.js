@@ -261,24 +261,6 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Linear App",
-    description:
-      "Meet the new standard for modern software development. Streamline Issues, sprint and product roadmaps.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-    ],
-    image: linear_app,
-    project_link: "https://linear.app",
-    source_code_link: "https://github.com/",
-  },
-  {
     name: "Todoist",
     description:
       "Become focused, organized, and calm with Todoist. The world’s #1 task manager and to-do list app.",
