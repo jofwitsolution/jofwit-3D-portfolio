@@ -163,6 +163,7 @@ const experiences = [
     date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining website, ensuring optimal functionality and user experience.",
+      "Optimizing Website performance for maximum speed, scalability, and reliability.",
     ],
   },
   {
@@ -189,6 +190,7 @@ const experiences = [
     points: [
       "Maintained website for optimal functionality and user experience.",
       "Recommended network security standards and upgrades to management",
+      "Collaborated with teams to build user interfaces and backend solutions.",
     ],
   },
   {
