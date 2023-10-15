@@ -44,6 +44,7 @@ import portfolio from "./project/portfolio.png";
 import prompay from "./project/prompay.png";
 import bibzycarter from "./project/bibzycarter.png";
 import todoist from "./project/todoist.png";
+import provision from "./project/provision.png";
 
 import human from "./comment/human.png";
 import prompay_ceo from "./comment/prompay-ceo.jpg";
@@ -92,6 +93,7 @@ export {
   bpl,
   globalflex,
   guard_enforcement,
+  provision,
   human,
   prompay_ceo,
 };

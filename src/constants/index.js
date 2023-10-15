@@ -38,6 +38,7 @@ import {
   guard_enforcement,
   human,
   prompay_ceo,
+  provision,
 } from "../assets";
 
 export const navLinks = [
@@ -172,7 +173,7 @@ const experiences = [
     jobType: "Part time",
     icon: devcent_logo,
     iconBg: "#383E56",
-    date: "May 2022 - July 2023",
+    date: "May 2022 - Present",
     points: [
       "Developed and maintained web applications using React.js and other related technologies resulting in a remarkable 30% increase in website performance.",
       "Implemented robust back-end solutions using NodeJS, and MongoDB to enable seamless data management.",
@@ -236,6 +237,32 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "ProVision Property",
+    description:
+      "Provsion provide inclusive and supported living experiences tailored to the unique needs of clients.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: provision,
+    project_link: "https://provisionsupportservice.co.uk",
+    source_code_link: "https://github.com/",
+  },
   {
     name: "Devcent",
     description:
@@ -493,7 +520,7 @@ const projects = [
       },
     ],
     image: guard_enforcement,
-    project_link: "https://guardenfocement.netlify.app",
+    project_link: "https://guardenfocement.com",
     source_code_link: "https://github.com/",
   },
 ];
