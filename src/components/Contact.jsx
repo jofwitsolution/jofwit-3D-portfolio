@@ -39,7 +39,7 @@ const Contact = () => {
     setLoading(true);
     const { name, email, message } = form;
     if (!name || !email || !message) {
-      toast("All fields are required.", toastOption);
+      toast.error("All fields are required.", toastOption);
       return;
     }
 
@@ -59,7 +59,9 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          toast("Thank you. I will get back to you as soon as possible.");
+          toast.success(
+            "Thank you. I will get back to you as soon as possible."
+          );
 
           setForm({
             name: "",
@@ -71,7 +73,10 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          toast("Ahh, something went wrong. Please try again.", toastOption);
+          toast.error(
+            "Ahh, something went wrong. Please try again.",
+            toastOption
+          );
         }
       );
   };
