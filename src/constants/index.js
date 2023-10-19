@@ -240,7 +240,7 @@ const projects = [
   {
     name: "ProVision Property",
     description:
-      "Provsion provide inclusive and supported living experiences tailored to the unique needs of clients.",
+      "Provsion provide inclusive and supported living experiences tailored to the unique needs of clients in the UK.",
     tags: [
       {
         name: "React",
