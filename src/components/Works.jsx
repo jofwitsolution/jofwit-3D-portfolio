@@ -47,7 +47,7 @@ const ProjectCard = ({
             rel="noreferrer"
             className=""
           >
-            <h3 className="text-white font-bold text-[24px] hover:text-secondary">
+            <h3 className="text-white underline font-bold text-[24px] hover:text-secondary">
               {name}
             </h3>
           </a>
