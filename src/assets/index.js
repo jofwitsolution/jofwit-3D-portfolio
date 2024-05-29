@@ -31,6 +31,10 @@ import shelter from "./company/shelter.png";
 import devcent_logo from "./company/devcent-logo.png";
 
 import devcent from "./project/devcent.png";
+import dieselng from "./project/dieselng.png";
+import askdev from "./project/askdev.png";
+import agecare from "./project/agecare.png";
+import pidng from "./project/pidng.png";
 import best_game_house from "./project/best-game-house.png";
 import bpl from "./project/bpl.png";
 import didomi from "./project/didomi.png";
@@ -80,6 +84,10 @@ export {
   devcent_logo,
   pc,
   devcent,
+  dieselng,
+  askdev,
+  agecare,
+  pidng,
   prompay,
   todoist,
   bibzycarter,

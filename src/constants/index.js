@@ -39,6 +39,9 @@ import {
   human,
   prompay_ceo,
   provision,
+  dieselng,
+  agecare,
+  pidng,
 } from "../assets";
 
 export const navLinks = [
@@ -155,22 +158,22 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Web Developer",
-    company_name: "Guard Enforcement",
-    jobType: "Remote",
-    icon: web,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining website, ensuring optimal functionality and user experience.",
-      "Optimizing Website performance for maximum speed, scalability, and reliability.",
-    ],
-  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Guard Enforcement",
+  //   jobType: "Remote",
+  //   icon: web,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining website, ensuring optimal functionality and user experience.",
+  //     "Optimizing Website performance for maximum speed, scalability, and reliability.",
+  //   ],
+  // },
   {
     title: "Web Developer",
     company_name: "Devcent",
-    jobType: "Part time",
+    jobType: "",
     icon: devcent_logo,
     iconBg: "#383E56",
     date: "May 2022 - Present",
@@ -264,6 +267,58 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
+    name: "Diesel NG",
+    description:
+      "A go-to source for the most up-to-date diesel (AGO) depot prices in Nigeria. They provide accurate information..",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "green-text-gradient",
+      },
+    ],
+    image: dieselng,
+    project_link: "https://www.dieselng.com",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "AskDev",
+    description:
+      "A developers platform, where questions related to information technology are asked. Everyone is allowed to ask and answer questions...",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: dieselng,
+    project_link: "https://askdev.jofwitsolution.com",
+    source_code_link: "https://github.com/",
+  },
+  {
     name: "Devcent",
     description:
       "An innovative online learning platform designed to equip learners with in-demand tech skills.",
@@ -290,9 +345,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Todoist",
+    name: "PID NG",
     description:
-      "Become focused, organized, and calm with Todoist. The world’s #1 task manager and to-do list app.",
+      "In the pursuit of justice, we stand united and harnessing data and upholding the law. Nigeria’s guidance",
     tags: [
       {
         name: "react",
@@ -303,12 +358,16 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "nextjs",
         color: "pink-text-gradient",
       },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
     ],
-    image: todoist,
-    project_link: "https://todoist.com",
+    image: pidng,
+    project_link: "https://pidng.com",
     source_code_link: "https://github.com",
   },
   {
@@ -334,7 +393,7 @@ const projects = [
       },
     ],
     image: prompay,
-    project_link: "https://theprompay.com",
+    project_link: "https://prompay.vercel.app",
     source_code_link: "https://github.com/",
   },
   {
@@ -379,24 +438,6 @@ const projects = [
     ],
     image: bibzycarter,
     project_link: "https://bibzy-carter-model.vercel.app/",
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Rawg clone",
-    description:
-      "Best Game House Best Game House Best Game House Best Game House Best Game House Best Game House Best Game House",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "chakra ui",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: best_game_house,
-    project_link: "https://bestgamehouse.vercel.app",
     source_code_link: "https://github.com/",
   },
   {
@@ -484,7 +525,7 @@ const projects = [
       },
     ],
     image: globalflex,
-    project_link: "https://globalflexshopping.store",
+    project_link: "https://globalflexshopping.netlify.app",
     source_code_link: "https://github.com/",
   },
   {
@@ -521,6 +562,24 @@ const projects = [
     ],
     image: guard_enforcement,
     project_link: "https://guardenfocement.com",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Age Care Services",
+    description:
+      "We are an LTD company on a mission to make difference. Our team is made up of passionate people who care about offering a service...",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nextjs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: agecare,
+    project_link: "https://agecareservices.online",
     source_code_link: "https://github.com/",
   },
 ];
