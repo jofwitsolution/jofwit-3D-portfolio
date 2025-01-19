@@ -9,6 +9,7 @@ import {
   css,
   reactjs,
   redux,
+  aws,
   tailwind,
   nodejs,
   mongodb,
@@ -73,7 +74,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Backend Developer",
     icon: mobile,
   },
   {
@@ -148,6 +149,10 @@ const technologies = [
     icon: docker,
   },
   {
+    name: "AWS",
+    icon: aws,
+  },
+  {
     name: "Python",
     icon: python,
   },
@@ -158,29 +163,19 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Guard Enforcement",
-  //   jobType: "Remote",
-  //   icon: web,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining website, ensuring optimal functionality and user experience.",
-  //     "Optimizing Website performance for maximum speed, scalability, and reliability.",
-  //   ],
-  // },
   {
     title: "Web Developer",
     company_name: "Devcent",
     jobType: "",
     icon: devcent_logo,
     iconBg: "#383E56",
-    date: "May 2022 - Present",
+    date: "May 2022 - Aug 2024",
     points: [
       "Developed and maintained web applications using React.js and other related technologies resulting in a remarkable 30% increase in website performance.",
       "Implemented robust back-end solutions using NodeJS, and MongoDB to enable seamless data management.",
       "Collaborated with cross-functional teams to seamlessly convert design mockups into fully functional websites and applications.",
+      "Improved application performance by implementing caching strategies, load balancing, and optimizing database queries for faster and more efficient systems.",
+      " Perform quality assurance/debugging procedures to provide a secure and functional delivery",
       "Conducted comprehensive web development training sessions.",
     ],
   },
@@ -441,24 +436,6 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Former Portfolio",
-    description:
-      "My former Portfolio website. Built with Nextjs 13.4, Tailwind CSS. My former Portfolio website. Built with Nextjs Tailwind CSS.",
-    tags: [
-      {
-        name: "Nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: portfolio,
-    project_link: "https://jofwitportfolio.vercel.app",
-    source_code_link: "https://github.com/",
-  },
-  {
     name: "Jofwit Solution",
     description:
       "An IT agency focused on web. Empowering Your Business with Expert IT Solutions and Services.",
@@ -480,72 +457,7 @@ const projects = [
     project_link: "https://jofwitsolution.com",
     source_code_link: "https://github.com/",
   },
-  {
-    name: "Didomi Ltd",
-    description:
-      "Didomi Company Limited, One of the leading international education providers. One of the leading international education providers.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "SCSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Node",
-        color: "green-text-gradient",
-      },
-    ],
-    image: didomi,
-    project_link: "https://didomiconsortium.com",
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Globalflex",
-    description:
-      "Your One-Stop Shop for Everything You Need. Your One-Stop E-commerce for Everything You Need.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-    ],
-    image: globalflex,
-    project_link: "https://globalflexshopping.netlify.app",
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Better Place Living",
-    description:
-      "Better Place Living is a United Kingdom based health care agency that provides care and support to those in need.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "SCSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: bpl,
-    project_link: "https://betterplaceliving.co.uk",
-    source_code_link: "https://github.com/",
-  },
+
   {
     name: "Guard Enforcement",
     description:
@@ -562,24 +474,6 @@ const projects = [
     ],
     image: guard_enforcement,
     project_link: "https://guardenfocement.com",
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Age Care Services",
-    description:
-      "We are an LTD company on a mission to make difference. Our team is made up of passionate people who care about offering a service...",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Nextjs",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: agecare,
-    project_link: "https://agecareservices.online",
     source_code_link: "https://github.com/",
   },
 ];
