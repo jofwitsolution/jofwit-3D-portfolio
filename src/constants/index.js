@@ -260,7 +260,7 @@ const projects = [
     ],
     image: easeman_cleaning,
     project_link: "https://www.easeman.online",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/jofwitsolution",
   },
   {
     name: "Easeman Technology",
@@ -286,7 +286,7 @@ const projects = [
     ],
     image: easeman_courses,
     project_link: "https://easeman-courses.vercel.app",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/jofwitsolution",
   },
   {
     name: "ProVision Property",
@@ -312,7 +312,7 @@ const projects = [
     ],
     image: provision,
     project_link: "https://provisionsupportservice.co.uk",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/jofwitsolution",
   },
   {
     name: "Diesel NG",
@@ -338,7 +338,7 @@ const projects = [
     ],
     image: dieselng,
     project_link: "https://www.dieselng.com",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/jofwitsolution",
   },
   {
     name: "AskDev",
@@ -364,7 +364,7 @@ const projects = [
     ],
     image: dieselng,
     project_link: "https://askdev.jofwitsolution.com",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/jofwitsolution",
   },
   {
     name: "Devcent",
@@ -390,7 +390,7 @@ const projects = [
     ],
     image: devcent,
     project_link: "https://devcent.net",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/jofwitsolution",
   },
   {
     name: "PID NG",
@@ -416,7 +416,7 @@ const projects = [
     ],
     image: pidng,
     project_link: "https://pidng.com",
-    source_code_link: "https://github.com",
+    source_code_link: "https://github.com/jofwitsolution",
   },
   {
     name: "Prompay",
@@ -442,7 +442,7 @@ const projects = [
     ],
     image: prompay,
     project_link: "https://prompay.vercel.app",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/jofwitsolution",
   },
   {
     name: "Ex-Nihilo Care Services",
@@ -464,7 +464,7 @@ const projects = [
     ],
     image: ex_nihilo,
     project_link: "https://ex-nihilocareservicesandconsultancy.com",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/jofwitsolution",
   },
   {
     name: "BibzyCarter Model",
@@ -486,7 +486,7 @@ const projects = [
     ],
     image: bibzycarter,
     project_link: "https://bibzy-carter-model.vercel.app/",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/jofwitsolution",
   },
   {
     name: "Jofwit Solution",
@@ -508,7 +508,7 @@ const projects = [
     ],
     image: jofwit_solution,
     project_link: "https://jofwitsolution.com",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/jofwitsolution",
   },
 
   {
@@ -527,7 +527,7 @@ const projects = [
     ],
     image: guard_enforcement,
     project_link: "https://guardenfocement.com",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/jofwitsolution",
   },
 ];
 
