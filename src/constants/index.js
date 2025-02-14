@@ -41,7 +41,8 @@ import {
   prompay_ceo,
   provision,
   dieselng,
-  agecare,
+  easeman_cleaning,
+  easeman_courses,
   pidng,
 } from "../assets";
 
@@ -169,7 +170,7 @@ const experiences = [
     jobType: "",
     icon: devcent_logo,
     iconBg: "#383E56",
-    date: "May 2022 - Aug 2024",
+    date: "May 2022 - Jan 2025",
     points: [
       "Developed and maintained web applications using React.js and other related technologies resulting in a remarkable 30% increase in website performance.",
       "Implemented robust back-end solutions using NodeJS, and MongoDB to enable seamless data management.",
@@ -235,6 +236,58 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Easeman Cleaning",
+    description:
+      "Easeman Cleaning Services is more than just a cleaning company - they provide services that enhances your quality of life.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: easeman_cleaning,
+    project_link: "https://www.easeman.online",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Easeman Technology",
+    description:
+      "Easeman Technology is a tech education center/platform dedicated to providing accessible, enjoyable, and impactful learning experiences.",
+    tags: [
+      {
+        name: "Nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Expressjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: easeman_courses,
+    project_link: "https://easeman-courses.vercel.app",
+    source_code_link: "https://github.com/",
+  },
   {
     name: "ProVision Property",
     description:
