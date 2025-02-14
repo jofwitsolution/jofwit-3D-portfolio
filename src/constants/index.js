@@ -265,7 +265,7 @@ const projects = [
   {
     name: "Easeman Technology",
     description:
-      "Easeman Technology is a tech education center/platform dedicated to providing accessible, enjoyable, and impactful learning experiences.",
+      "Easeman Technology is a tech education platform dedicated to providing accessible, and impactful learning experiences.",
     tags: [
       {
         name: "Nodejs",
