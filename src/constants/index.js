@@ -489,7 +489,7 @@ const projects = [
     source_code_link: "https://github.com/jofwitsolution",
   },
   {
-    name: "Jofwit Solution",
+    name: "Bitnox Solution",
     description:
       "An IT agency focused on web. Empowering Your Business with Expert IT Solutions and Services.",
     tags: [
@@ -526,7 +526,7 @@ const projects = [
       },
     ],
     image: guard_enforcement,
-    project_link: "https://guardenfocement.com",
+    project_link: "https://guardenforcement.com",
     source_code_link: "https://github.com/jofwitsolution",
   },
 ];
