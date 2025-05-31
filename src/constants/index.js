@@ -237,9 +237,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Easeman Cleaning",
+    name: "Bitnox Cleaning",
     description:
-      "Easeman Cleaning Services is more than just a cleaning company - they provide services that enhances your quality of life.",
+      "Bitnox Cleaning Services is more than just a cleaning company - they provide services that enhances your quality of life.",
     tags: [
       {
         name: "React",
@@ -259,13 +259,13 @@ const projects = [
       },
     ],
     image: easeman_cleaning,
-    project_link: "https://www.easeman.online",
+    project_link: "https://cleaning.bitnoxsolution.com",
     source_code_link: "https://github.com/jofwitsolution",
   },
   {
-    name: "Easeman Technology",
+    name: "Bitnox Technology",
     description:
-      "Easeman Technology is a tech education platform dedicated to providing accessible, and impactful learning experiences.",
+      "Bitnox Technology is a tech education platform dedicated to providing accessible, and impactful learning experiences.",
     tags: [
       {
         name: "Nodejs",
@@ -285,7 +285,7 @@ const projects = [
       },
     ],
     image: easeman_courses,
-    project_link: "https://easeman-courses.vercel.app",
+    project_link: "https://edu.bitnoxsolution.com",
     source_code_link: "https://github.com/jofwitsolution",
   },
   {
@@ -363,7 +363,7 @@ const projects = [
       },
     ],
     image: dieselng,
-    project_link: "https://askdev.jofwitsolution.com",
+    project_link: "https://askdev.bitnoxsolution.com",
     source_code_link: "https://github.com/jofwitsolution",
   },
   {
@@ -507,7 +507,7 @@ const projects = [
       },
     ],
     image: jofwit_solution,
-    project_link: "https://jofwitsolution.com",
+    project_link: "https://bitnoxsolution.com",
     source_code_link: "https://github.com/jofwitsolution",
   },
 
