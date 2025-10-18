@@ -41,12 +41,13 @@ import {
   prompay_ceo,
   provision,
   dieselng,
-  easeman_cleaning,
+  bitnox_cleaning,
   easeman_courses,
   pidng,
   insightful_logo,
   provision_logo,
   idn,
+  dexcraft,
 } from "../assets";
 
 export const navLinks = [
@@ -295,6 +296,31 @@ const projects = [
     source_code_link: "https://github.com/jofwitsolution",
   },
   {
+    name: "Dexcraft",
+    description: "Crafting Digital Excellence with Dexcraft.",
+    tags: [
+      {
+        name: "Nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Reactjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Expressjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: dexcraft,
+    project_link: "https://www.dexcraft.agency/",
+    source_code_link: "https://github.com/jofwitsolution",
+  },
+  {
     name: "Provision Support Services CIC",
     description:
       "Provsion provide inclusive and supported living experiences tailored to the unique needs of clients in the UK.",
@@ -368,7 +394,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: easeman_cleaning,
+    image: bitnox_cleaning,
     project_link: "https://cleaning.bitnoxsolution.com",
     source_code_link: "https://github.com/jofwitsolution",
   },

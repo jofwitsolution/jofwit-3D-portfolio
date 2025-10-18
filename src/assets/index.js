@@ -33,6 +33,7 @@ import devcent_logo from "./company/devcent-logo.png";
 import insightful_logo from "./company/insightful-logo.jpg";
 import provision_logo from "./company/provision-logo.png";
 
+import dexcraft from "./project/dexcraft.png";
 import devcent from "./project/devcent.png";
 import dieselng from "./project/dieselng.png";
 import askdev from "./project/askdev.png";
@@ -52,7 +53,7 @@ import prompay from "./project/prompay.png";
 import bibzycarter from "./project/bibzycarter.png";
 import todoist from "./project/todoist.png";
 import provision from "./project/provision.png";
-import easeman_cleaning from "./project/easeman-cleaning.png";
+import bitnox_cleaning from "./project/bitnox-cleaning.png";
 import easeman_courses from "./project/easeman-courses.png";
 import idn from "./project/idn.png";
 
@@ -60,6 +61,7 @@ import human from "./comment/human.png";
 import prompay_ceo from "./comment/prompay-ceo.jpg";
 
 export {
+  dexcraft,
   idn,
   provision_logo,
   insightful_logo,
@@ -111,7 +113,7 @@ export {
   bpl,
   globalflex,
   guard_enforcement,
-  easeman_cleaning,
+  bitnox_cleaning,
   easeman_courses,
   provision,
   human,
