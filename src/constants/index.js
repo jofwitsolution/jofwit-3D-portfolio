@@ -44,6 +44,9 @@ import {
   easeman_cleaning,
   easeman_courses,
   pidng,
+  insightful_logo,
+  provision_logo,
+  idn,
 } from "../assets";
 
 export const navLinks = [
@@ -165,12 +168,41 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Instructor",
+    company_name: "Insightful Eduworld",
+    jobType: "Remote",
+    icon: insightful_logo,
+    iconBg: "#383E56",
+    date: "Feb 2025 - Present",
+    points: [
+      "Deliver structured training sessions on Python programming, covering beginner to advanced concepts (data structures, OOP, modules, error handling, etc.).",
+      "Design and implement hands-on projects to help learners apply Python in real-world scenarios.",
+      "Mentor students/employees to strengthen problem-solving, coding practices, and software development skills.",
+      "Develop course materials, coding exercises, and assessments to track learner progress.",
+      "Facilitate workshops on advanced topics such as APIs, web development with Django/Flask, and data analysis with Python.",
+    ],
+  },
+  {
+    title: "Web Developer",
+    company_name: "Provision Support Services CIC",
+    jobType: "Remote",
+    icon: provision_logo,
+    iconBg: "#383E56",
+    date: "Feb 2024 - Present",
+    points: [
+      "Developed and maintained the company website and web applications to enhance user experience",
+      "Improved application performance by implementing caching strategies, load balancing, and optimizing database queries for faster and more efficient systems.",
+      "Designed and prepared various company documents, ensuring clarity and professionalism.",
+      "Created engaging content to support the company's mission and outreach efforts.",
+    ],
+  },
+  {
     title: "Web Developer",
     company_name: "Devcent",
     jobType: "",
     icon: devcent_logo,
     iconBg: "#383E56",
-    date: "May 2022 - Jan 2025",
+    date: "May 2022 - Jan 2024",
     points: [
       "Developed and maintained web applications using React.js and other related technologies resulting in a remarkable 30% increase in website performance.",
       "Implemented robust back-end solutions using NodeJS, and MongoDB to enable seamless data management.",
@@ -237,32 +269,6 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Bitnox Cleaning",
-    description:
-      "Bitnox Cleaning Services is more than just a cleaning company - they provide services that enhances your quality of life.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Nextjs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "TailwindCSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Mongodb",
-        color: "green-text-gradient",
-      },
-    ],
-    image: easeman_cleaning,
-    project_link: "https://cleaning.bitnoxsolution.com",
-    source_code_link: "https://github.com/jofwitsolution",
-  },
-  {
     name: "Bitnox Technology",
     description:
       "Bitnox Technology is a tech education platform dedicated to providing accessible, and impactful learning experiences.",
@@ -289,7 +295,7 @@ const projects = [
     source_code_link: "https://github.com/jofwitsolution",
   },
   {
-    name: "ProVision Property",
+    name: "Provision Support Services CIC",
     description:
       "Provsion provide inclusive and supported living experiences tailored to the unique needs of clients in the UK.",
     tags: [
@@ -341,7 +347,33 @@ const projects = [
     source_code_link: "https://github.com/jofwitsolution",
   },
   {
-    name: "AskDev",
+    name: "Bitnox Cleaning",
+    description:
+      "Bitnox Cleaning Services is more than just a cleaning company - they provide services that enhances your quality of life.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: easeman_cleaning,
+    project_link: "https://cleaning.bitnoxsolution.com",
+    source_code_link: "https://github.com/jofwitsolution",
+  },
+  {
+    name: "AskCom",
     description:
       "A developers platform, where questions related to information technology are asked. Everyone is allowed to ask and answer questions...",
     tags: [
@@ -363,7 +395,7 @@ const projects = [
       },
     ],
     image: dieselng,
-    project_link: "https://askdev.bitnoxsolution.com",
+    project_link: "https://askcom.bitnoxsolution.com",
     source_code_link: "https://github.com/jofwitsolution",
   },
   {
@@ -393,29 +425,29 @@ const projects = [
     source_code_link: "https://github.com/jofwitsolution",
   },
   {
-    name: "PID NG",
+    name: "International Dance Nigeria",
     description:
-      "In the pursuit of justice, we stand united and harnessing data and upholding the law. Nigeria’s guidance",
+      "The Dance World Cup is the most prestigious all-genre dance competition in the world.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "node",
+        name: "Nextjs",
         color: "green-text-gradient",
       },
       {
-        name: "nextjs",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Mongodb",
         color: "green-text-gradient",
       },
     ],
-    image: pidng,
-    project_link: "https://pidng.com",
+    image: idn,
+    project_link: "https://www.internationaldance.ng",
     source_code_link: "https://github.com/jofwitsolution",
   },
   {
@@ -488,28 +520,28 @@ const projects = [
     project_link: "https://bibzy-carter-model.vercel.app/",
     source_code_link: "https://github.com/jofwitsolution",
   },
-  {
-    name: "Bitnox Solution",
-    description:
-      "An IT agency focused on web. Empowering Your Business with Expert IT Solutions and Services.",
-    tags: [
-      {
-        name: "Nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Node",
-        color: "green-text-gradient",
-      },
-    ],
-    image: jofwit_solution,
-    project_link: "https://bitnoxsolution.com",
-    source_code_link: "https://github.com/jofwitsolution",
-  },
+  // {
+  //   name: "Bitnox Solution",
+  //   description:
+  //     "An IT agency focused on web. Empowering Your Business with Expert IT Solutions and Services.",
+  //   tags: [
+  //     {
+  //       name: "Nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Node",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: jofwit_solution,
+  //   project_link: "https://bitnoxsolution.com",
+  //   source_code_link: "https://github.com/jofwitsolution",
+  // },
 
   {
     name: "Guard Enforcement",

@@ -30,6 +30,8 @@ import chakra_ui from "./tech/chakra-ui.png";
 
 import shelter from "./company/shelter.png";
 import devcent_logo from "./company/devcent-logo.png";
+import insightful_logo from "./company/insightful-logo.jpg";
+import provision_logo from "./company/provision-logo.png";
 
 import devcent from "./project/devcent.png";
 import dieselng from "./project/dieselng.png";
@@ -52,11 +54,15 @@ import todoist from "./project/todoist.png";
 import provision from "./project/provision.png";
 import easeman_cleaning from "./project/easeman-cleaning.png";
 import easeman_courses from "./project/easeman-courses.png";
+import idn from "./project/idn.png";
 
 import human from "./comment/human.png";
 import prompay_ceo from "./comment/prompay-ceo.jpg";
 
 export {
+  idn,
+  provision_logo,
+  insightful_logo,
   logo,
   backend,
   creator,
